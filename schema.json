@@ -1,0 +1,70 @@
+{
+  "columns": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "stories",
+    "mainroad",
+    "guestroom",
+    "basement",
+    "hotwaterheating",
+    "airconditioning",
+    "parking",
+    "prefarea",
+    "furnishingstatus"
+  ],
+  "categorical_columns": [
+    "mainroad",
+    "guestroom",
+    "basement",
+    "hotwaterheating",
+    "airconditioning",
+    "prefarea",
+    "furnishingstatus"
+  ],
+  "numeric_columns": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "stories",
+    "parking"
+  ],
+  "categories": {
+    "mainroad": [
+      "no",
+      "yes"
+    ],
+    "guestroom": [
+      "no",
+      "yes"
+    ],
+    "basement": [
+      "no",
+      "yes"
+    ],
+    "hotwaterheating": [
+      "no",
+      "yes"
+    ],
+    "airconditioning": [
+      "no",
+      "yes"
+    ],
+    "prefarea": [
+      "no",
+      "yes"
+    ],
+    "furnishingstatus": [
+      "furnished",
+      "semi-furnished",
+      "unfurnished"
+    ]
+  },
+  "defaults": {
+    "area": 4500.0,
+    "bedrooms": 3.0,
+    "bathrooms": 1.0,
+    "stories": 2.0,
+    "parking": 0.0
+  }
+}
